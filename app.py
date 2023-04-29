@@ -34,7 +34,7 @@ def create_dataframe_section(df):
     col_2.markdown(data_description)
 
     
-    def create_answers_section(df):
+def create_answers_section(df):
     st.title("Main Questions Answers")
 
     st.header("First Round")
